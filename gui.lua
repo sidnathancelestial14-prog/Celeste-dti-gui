@@ -1,3 +1,4 @@
+{Name = "My Outfit", File = "my-outfit"}
 local G2L = {};
 
 -- StarterGui.DTIGUI
