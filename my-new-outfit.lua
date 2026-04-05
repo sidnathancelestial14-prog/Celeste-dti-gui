@@ -1,3 +1,4 @@
+for i, v in game.Players.LocalPlayer.Character:WaitForChild('EquippedAccessories'):GetChildren() do game:GetService('ReplicatedStorage'):WaitForChild('RemoteEvents'):WaitForChild('UnequipItem'):FireServer(v.Name) end
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("EquipItem"):FireServer("W25 Moth Legwarmers")
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("ColorAccessory"):FireServer("W25 Moth Legwarmers", "1", Color3.new(0.361, 0.251, 0.196))
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("ColorAccessory"):FireServer("W25 Moth Legwarmers", "2", Color3.new(0.969, 0.839, 0.831))
